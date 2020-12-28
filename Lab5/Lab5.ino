@@ -28,7 +28,7 @@ portMUX_TYPE timerMux = portMUX_INITIALIZER_UNLOCKED;
 const char* ssid       = "An9";
 const char* password   = "zxcvbnm1";
 
-/*----------------NTP Client----------------------*/
+/*----------------UDP Client----------------------*/
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP);
 const long  gmtOffset_sec = 7200;
